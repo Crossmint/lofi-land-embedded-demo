@@ -23,6 +23,11 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
+                <a className="nav-link" target="_blank" href="https://github.com/divya-ranjn/lofi-land-embedded-demo">
+                  Github Repo
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" target="_blank" href="https://www.crossmint.com/products/nft-checkout">
                   Integrate Payments
                 </a>
