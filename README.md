@@ -9,7 +9,7 @@ Add Crossmint’s custom embedded checkout, a fully customizable iframe seamless
 
 **Experience the live demo:** [https://lofi-land.demos-crossmint.com/](https://lofi-land.demos-crossmint.com/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=hhttps://github.com/divya-ranjn/lofi.land)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=hhttps://github.com/divya-ranjn/lofi-land-embedded-demo)
 
 ## 🛠️ Getting Started
 
