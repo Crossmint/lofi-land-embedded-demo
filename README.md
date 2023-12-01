@@ -1,8 +1,3 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
 # Crossmint : Lofi.land Embedded Checkout Demo
 
 Add Crossmint’s custom embedded checkout, a fully customizable iframe seamlessly integrated onto your website.
