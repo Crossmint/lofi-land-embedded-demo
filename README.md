@@ -29,7 +29,7 @@ Follow the setup and installation instructions below to run this demo on your lo
 1. **Clone the Repository**
 
     ```jsx
-    git clone https://github.com/divya-ranjn/lofi.land.git
+    git clone https://github.com/divya-ranjn/lofi-land-embedded-demo.git
     ```
     
 2. **Install the required packages**
