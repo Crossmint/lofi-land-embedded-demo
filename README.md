@@ -1,15 +1,10 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
 # Crossmint : Lofi.land Embedded Checkout Demo
 
 Add Crossmint’s custom embedded checkout, a fully customizable iframe seamlessly integrated onto your website.
 
 **Experience the live demo:** [https://lofi-land.demos-crossmint.com/](https://lofi-land.demos-crossmint.com/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=hhttps://github.com/divya-ranjn/lofi.land)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=hhttps://github.com/divya-ranjn/lofi-land-embedded-demo)
 
 ## 🛠️ Getting Started
 
@@ -34,7 +29,7 @@ Follow the setup and installation instructions below to run this demo on your lo
 1. **Clone the Repository**
 
     ```jsx
-    git clone https://github.com/divya-ranjn/lofi.land.git
+    git clone https://github.com/divya-ranjn/lofi-land-embedded-demo.git
     ```
     
 2. **Install the required packages**
