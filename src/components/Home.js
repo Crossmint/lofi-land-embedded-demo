@@ -50,7 +50,7 @@ const handlePurchase = () => {
           
            <div className="contain-right">
             <div className="card">
-            <a href="/product">
+            <a onClick={() => handlePurchase()}>
               <img src="/nft-img.gif" className="card-img-top nft-image" alt="NFT" />
             </a>
               <div className="card-body">
