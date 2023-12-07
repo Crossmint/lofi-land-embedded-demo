@@ -3,39 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@crossmint/client-sdk-base": "^1.1.2-alpha.0",
     "@crossmint/client-sdk-react-ui": "^1.1.2-alpha.0",
-    "@dynamic-labs/ethereum": "^0.18.29",
-    "@dynamic-labs/ethers-v5": "^0.19.1",
     "@dynamic-labs/sdk-react": "^0.18.28",
-    "@dynamic-labs/sdk-react-core": "^0.18.29",
-    "@dynamic-labs/solana": "^0.19.1",
-    "@dynamic-labs/solana-all": "^0.18.28",
-    "@dynamic-labs/wagmi-connector": "^0.18.29",
-    "@solana/wallet-adapter-react": "^0.15.35",
-    "@solana/wallet-adapter-react-ui": "^0.9.34",
-    "@solana/wallet-adapter-wallets": "^0.19.23",
-    "@solana/web3.js": "^1.87.6",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "axios": "^1.6.2",
-    "browserify-zlib": "^0.2.0",
-    "crypto-browserify": "^3.12.0",
-    "css.gg": "^2.1.1",
-    "ethers": "^5.5.0",
-    "https-browserify": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-lottie-player": "^1.5.5",
     "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
-    "stream-browserify": "^3.0.0",
-    "stream-http": "^3.2.0",
-    "url": "^0.11.3",
-    "viem": "^1.19.1",
-    "wagmi": "^1.4.6",
     "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -60,8 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/preset-typescript": "^7.23.3"
   }
 }
