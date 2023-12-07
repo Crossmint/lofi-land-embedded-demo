@@ -52,7 +52,9 @@ Follow the setup and installation instructions below to run this demo on your lo
    ```env
    REACT_APP_COLLECTION_ID=YOUR_CROSSMINT_COLLECTION_ID or use 6c3b6164-f6cc-42a1-89b8-df942da0fe7a for testing
    REACT_APP_PROJECT_ID=YOUR_CROSSMINT_PROJECT_ID or use 3eb7d488-1374-4fc8-b0be-ebe6be8a8e2f for testing
+   REACT_APP_ENVIRONMENT=YOUR_CROSSMINT_ENVIRONMENT
    REACT_APP_DYNAMIC_ID=YOUR_DYNAMIC_XYZ_ENVIRONMENT_ID
+   GENERATE_SOURCEMAP=false
    ```
 
 4. ▶️ **Running the Demo**
