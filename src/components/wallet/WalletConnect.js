@@ -1,9 +1,15 @@
-import React from 'react'; 
-import { DynamicConnectButton, DynamicContextProvider, DynamicWidget, useDynamicContext } from '@dynamic-labs/sdk-react'; 
+import React from "react";
+import { DynamicContextProvider, DynamicWidget } from "@dynamic-labs/sdk-react";
 import { EthereumWalletConnectors } from "@dynamic-labs/ethereum-all";
-import CryptoPurchase from '../payments/CryptoPurchase';
+import CryptoPurchase from "../payments/CryptoPurchase";
 
-const WalletConnect = ({ children, count, setShowCongrats, setOrderIdentifier, setQuoteMessage }) => {
+const WalletConnect = ({
+  children,
+  count,
+  setShowCongrats,
+  setOrderIdentifier,
+  setQuoteMessage,
+}) => {
   const cssOverrides = `
     .button--padding-large {
       border-radius: 8px;
@@ -23,14 +29,20 @@ const WalletConnect = ({ children, count, setShowCongrats, setOrderIdentifier, s
     <DynamicContextProvider
       settings={{
         initialAuthenticationMode: "connect-only",
-        environmentId: process.env.REACT_APP_DYNAMICID,
+        environmentId: process.env.REACT_APP_DYNAMIC_ENV_ID,
         siweStatement: "Sign message to connect your wallet",
         walletConnectors: [EthereumWalletConnectors],
         cssOverrides,
       }}
-    > 
+    >
       <DynamicWidget />
-      <CryptoPurchase key="crypto-purchase" count={count} setShowCongrats={setShowCongrats} setOrderIdentifier={setOrderIdentifier} setQuoteMessage={setQuoteMessage} />
+      <CryptoPurchase
+        key="crypto-purchase"
+        count={count}
+        setShowCongrats={setShowCongrats}
+        setOrderIdentifier={setOrderIdentifier}
+        setQuoteMessage={setQuoteMessage}
+      />
       {children}
     </DynamicContextProvider>
   );

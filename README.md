@@ -47,12 +47,12 @@ Follow the setup and installation instructions below to run this demo on your lo
 
    Set up environment variables with the relevant keys.
 
-   Start by creating a file in the root directory (lofi.land) called **`.env`** & populate:
+   You can copy the `sample.env` file and name the new one `.env`. Then fill in your values:
 
-   ```bash
-   REACT_APP_COLLECTIONID=YOUR_CROSSMINT_COLLECTION_ID or use 6c3b6164-f6cc-42a1-89b8-df942da0fe7a for testing
-   REACT_APP_PROJECTID=YOUR_CROSSMINT_PROJECT_ID or use 3eb7d488-1374-4fc8-b0be-ebe6be8a8e2f for testing
-   REACT_APP_DYNAMICID=YOUR_DYNAMIC.XYZ_ENVIRONMENT_ID
+   ```env
+   REACT_APP_COLLECTION_ID=YOUR_CROSSMINT_COLLECTION_ID or use 6c3b6164-f6cc-42a1-89b8-df942da0fe7a for testing
+   REACT_APP_PROJECT_ID=YOUR_CROSSMINT_PROJECT_ID or use 3eb7d488-1374-4fc8-b0be-ebe6be8a8e2f for testing
+   REACT_APP_DYNAMIC_ID=YOUR_DYNAMIC_XYZ_ENVIRONMENT_ID
    ```
 
 4. ▶️ **Running the Demo**
