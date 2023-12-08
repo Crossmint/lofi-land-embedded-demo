@@ -60,15 +60,17 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="card-title mt-2 mb-2">Test NFT Collection</h5>
                 <p className="card-text">
-                  This is a Test Collection by Crossmint. Secure your NFT with
-                  ease using ETH (testnet) or Card payments and claim this NFT
-                  for free now!
+                  This is a demo collection by Crossmint.
+                </p>
+                <p>
+                  Click the Collect button to demo the purchase flow with
+                  cross-chain ETH or credit card.
                 </p>
                 <div className="row align-items-center">
                   <div className="col">
                     <div className="price-title">Price</div>
                     <span className="price">$1.25</span>{" "}
-                    <span className="original-price">$2.0</span>
+                    <span className="original-price">$2.00</span>
                     <span className="discount">37.5% Off</span>
                   </div>
                   <div className="col text-end">
