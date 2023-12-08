@@ -42,7 +42,8 @@ body {
 .dynamic-shadow-dom {
   --dynamic-base-1: #103224;
   --dynamic-connection-green: #41cc99;
-  --dynamic-text-primary-color: #053c27;
+  --dynamic-text-primary: #fff;
+  --dynamic-text-secondary: #bbffdd;
   --dynamic-base-2: #053c27;
   --dynamic-connect-button-color-hover: #053c27;
   --dynamic-connect-button-background: #fff;
