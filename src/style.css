@@ -431,7 +431,10 @@ p.text-s {
   font-size: 13.333px;
 }
 .text-g {
-  color: rgb(123 163 147);
+  color: rgb(185, 199, 194);
+}
+.text-w {
+  color: #efefef;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(187 255 221);

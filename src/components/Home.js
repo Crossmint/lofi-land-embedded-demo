@@ -193,9 +193,12 @@ const Home = () => {
                     >
                       <div className="mt-2 mb-2">
                         <p className="text-s text-g">
-                          NFTs on this collection are free. To buy them, use the
-                          following credit card number - 4242 4242 4242 4242 and
-                          enter random information.
+                          You can use the test credit card number{" "}
+                          <strong className="text-w">
+                            4242 4242 4242 4242
+                          </strong>{" "}
+                          and any valid information for the other fields to test
+                          the credit card flow.
                         </p>
                       </div>
                       {isCardTabOpened && (
