@@ -59,7 +59,7 @@ const Home = () => {
               </span>
               <div className="card-body">
                 <h5 className="card-title mt-2 mb-2">Test NFT Collection</h5>
-                <p class="card-text">
+                <p className="card-text">
                   This is a Test Collection by Crossmint. Secure your NFT with
                   ease using ETH (testnet) or Card payments and claim this NFT
                   for free now!
