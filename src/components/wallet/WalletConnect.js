@@ -29,7 +29,7 @@ const WalletConnect = ({
     <DynamicContextProvider
       settings={{
         initialAuthenticationMode: "connect-only",
-        environmentId: process.env.REACT_APP_DYNAMIC_ENV_ID,
+        environmentId: process.env.REACT_APP_DYNAMIC_ID,
         siweStatement: "Sign message to connect your wallet",
         walletConnectors: [EthereumWalletConnectors],
         cssOverrides,
