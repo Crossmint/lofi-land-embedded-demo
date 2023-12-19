@@ -43,7 +43,7 @@ function CryptoPurchase({
     <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
       <CrossmintPaymentElement
         projectId={process.env.REACT_APP_PROJECTID}
-        collectionId="6c3b6164-f6cc-42a1-89b8-df942da0fe7a"
+        collectionId="{process.env.REACT_APP_COLLECTIONID}"
         environment={process.env.REACT_APP_ENVIRONMENT}
         paymentMethod="ETH"
         recipient={{ wallet: address }}
