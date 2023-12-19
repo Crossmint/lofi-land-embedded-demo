@@ -28,7 +28,7 @@ Follow the setup and installation instructions below to run this demo on your lo
 
 ## 💾 Setup & Installation
 
-1. **Clone the Repository**
+1. **Clone the Repository **
 
    ```bash
    git clone https://github.com/divya-ranjn/lofi-land-embedded-demo.git
