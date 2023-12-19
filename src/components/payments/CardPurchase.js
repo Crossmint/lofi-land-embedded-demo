@@ -45,8 +45,8 @@ function CardPurchase({
         placeholder="Wallet address"
       />
       <CrossmintPaymentElement
-        projectId={process.env.REACT_APP_PROJECT_ID}
-        collectionId={process.env.REACT_APP_COLLECTION_ID}
+        projectId={process.env.REACT_APP_PROJECTID}
+        collectionId={process.env.REACT_APP_COLLECTIONID}
         environment={process.env.REACT_APP_ENVIRONMENT}
         recipient={wallet ? { email, wallet } : { email }}
         mintConfig={{ totalPrice: `${1.5 * count}` }}
